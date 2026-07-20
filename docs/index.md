@@ -44,4 +44,4 @@ flowchart TD
 ```
 
 !!! tip "Editing a page"
-    See the pencil icon at the top-right of any page? Click it to propose an edit right from your browser. Read [how contributing works](https://github.com/your-username/agile-docs-demo/blob/main/CONTRIBUTING.md) first.
+    See the pencil icon at the top-right of any page? Click it to propose an edit right from your browser. Read [how contributing works](https://github.com/JesusESD/agile-docs-demo/blob/main/CONTRIBUTING.md) first.

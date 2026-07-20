@@ -9,8 +9,8 @@ site_description: Planning, requirements, and delivery documentation for the Hel
 site_author: Helios Agile Team
 
 # Update these two lines with your GitHub username/repo after you push:
-repo_name: your-username/agile-docs-demo
-repo_url: https://github.com/your-username/agile-docs-demo
+repo_name: JesusESD/agile-docs-demo
+repo_url: https://github.com/JesusESD/agile-docs-demo
 edit_uri: edit/main/docs/
 
 theme:

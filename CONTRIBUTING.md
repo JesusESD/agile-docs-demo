@@ -48,7 +48,7 @@ After adding a **new** page, also add one line to the `nav:` list in `mkdocs.yml
 # Heading 1
 ## Heading 2
 
-**bold**  ·  *italic*  ·  `code`  ·  [link text](https://example.com)
+**bold**  ·  *italic*  ·  `code`  ·  [link text](https://github.com/JesusESD/agile-docs-demo)
 
 - bullet list
 1. numbered list
