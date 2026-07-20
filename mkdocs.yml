@@ -1,0 +1,104 @@
+# =============================================================================
+# MkDocs configuration — Helios Payments Platform documentation space
+# This file turns the Markdown in /docs into a searchable Confluence-like site
+# published automatically to GitHub Pages by .github/workflows/deploy-docs.yml
+# =============================================================================
+
+site_name: Helios Payments — Agile Documentation
+site_description: Planning, requirements, and delivery documentation for the Helios Payments Platform.
+site_author: Helios Agile Team
+
+# Update these two lines with your GitHub username/repo after you push:
+repo_name: your-username/agile-docs-demo
+repo_url: https://github.com/your-username/agile-docs-demo
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant      # fast, SPA-like page loads
+    - navigation.tracking      # URL updates as you scroll
+    - navigation.tabs          # top-level sections as tabs
+    - navigation.sections      # group pages in the sidebar
+    - navigation.top           # back-to-top button
+    - navigation.footer        # prev/next links
+    - search.suggest           # autocomplete in search
+    - search.highlight         # highlight matched terms
+    - content.action.edit      # "edit this page" pencil -> opens GitHub editor
+    - content.code.copy        # copy button on code blocks
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+# Confluence-like extras: admonitions, tabs, task lists, tables, diagrams
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+# Left-hand navigation — this is your "space" tree, like Confluence page hierarchy
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Epics:
+      - Overview: epics/index.md
+      - "EPIC-001 · Instant Payments": epics/epic-001-instant-payments.md
+      - "EPIC-002 · Fraud & Risk Screening": epics/epic-002-fraud-risk-screening.md
+  - User Stories:
+      - Overview: stories/index.md
+      - "HEL-142 · Send instant payment": stories/hel-142-send-instant-payment.md
+      - "HEL-158 · Real-time fraud score": stories/hel-158-realtime-fraud-score.md
+  - Business Requirements:
+      - Overview: brds/index.md
+      - "BRD · Instant Payments": brds/brd-instant-payments.md
+  - Release Notes:
+      - Overview: release-notes/index.md
+      - "v2.4.0": release-notes/v2.4.0.md
+      - "v2.3.0": release-notes/v2.3.0.md
+  - Reports:
+      - Overview: reports/index.md
+      - "Sprint 42 Review": reports/sprint-42-review.md
+      - "Sprint 42 Retrospective": reports/sprint-42-retrospective.md
+  - Meeting Notes:
+      - Overview: meeting-notes/index.md
+      - "PI Planning — Q3": meeting-notes/pi-planning-q3.md
+  - Templates:
+      - Overview: doc-templates/index.md
+      - Epic: doc-templates/epic-template.md
+      - User Story: doc-templates/user-story-template.md
+      - BRD: doc-templates/brd-template.md
+      - Release Note: doc-templates/release-note-template.md
+      - Meeting Notes: doc-templates/meeting-notes-template.md
