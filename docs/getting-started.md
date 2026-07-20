@@ -45,4 +45,4 @@ flowchart LR
 
 1. Open [Templates](doc-templates/index.md) and copy the one you need.
 2. Create your page in the right folder (see the table above).
-3. Propose the change as a pull request — the [contributing guide](https://github.com/your-username/agile-docs-demo/blob/main/CONTRIBUTING.md) walks you through it.
+3. Propose the change as a pull request — the [contributing guide](https://github.com/JesusESD/agile-docs-demo/blob/main/CONTRIBUTING.md) walks you through it.
