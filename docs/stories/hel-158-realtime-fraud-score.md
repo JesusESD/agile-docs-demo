@@ -38,7 +38,7 @@ Scenario: Scoring timeout fallback
 ## Notes & decisions
 
 - Decision thresholds (ALLOW / HOLD / BLOCK) are configurable by Risk & Compliance without a code change.
-- Every scoring call is logged for model monitoring and audit.
+- Every scoring call is logged for model monitoring and auditing.
 
 ## Definition of Done
 
