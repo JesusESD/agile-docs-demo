@@ -50,6 +50,11 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  # highlight + inlinehilite must be enabled for fenced code blocks (e.g. ```gherkin)
+  # to render as formatted code rather than raw text.
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -59,7 +64,10 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.emoji
+  # emoji_index/generator are required for Material icon shortcodes like :material-rocket-launch:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - attr_list
   - md_in_html
