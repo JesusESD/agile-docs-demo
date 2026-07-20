@@ -42,7 +42,7 @@ Scenario: Duplicate request
 
 ## Definition of Done
 
-- [ ] Code merged and covered by unit + contract tests.
+- [ ] Code merged and covered by unit + contrac.
 - [ ] API reference updated.
 - [ ] Load test confirms < 10 s at target throughput.
 - [ ] Demoed at [Sprint 42 Review](../reports/sprint-42-review.md).

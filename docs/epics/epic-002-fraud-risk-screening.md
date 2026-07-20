@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Status** | In progress |
-| **Owner** | A. Rivera (Product Owner) |
+| **Owner** | KASS (Product Owner) |
 | **Target release** | v2.5.0 |
 | **Projects board** | `Helios Delivery` → filter `epic:EPIC-002` |
 
