@@ -2,6 +2,7 @@
 
 | Field | Value |
 |-------|-------|
+| **Issue** | [HEL-142 · Send Instant Payment](https://github.com/JesusESD/agile-docs-demo/issues/1) |
 | **Epic** | [EPIC-001 · Instant Payments](../epics/epic-001-instant-payments.md) |
 | **Sprint** | 42 |
 | **Estimate** | 5 points |

@@ -2,6 +2,7 @@
 
 | Field | Value |
 |-------|-------|
+| **Issue** | [HEL-158 · Return real-time fraud score](https://github.com/JesusESD/agile-docs-demo/issues/2) |
 | **Epic** | [EPIC-002 · Fraud & Risk Screening](../epics/epic-002-fraud-risk-screening.md) |
 | **Sprint** | 42 |
 | **Estimate** | 8 points |
